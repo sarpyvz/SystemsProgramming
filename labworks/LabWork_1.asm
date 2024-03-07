@@ -1,4 +1,4 @@
-  LDAA #3
+  	LDAA #3
 	STAA $90
 
 	LDAB #5
