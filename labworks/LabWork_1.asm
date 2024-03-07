@@ -1,0 +1,25 @@
+  LDAA #3
+	STAA $90
+
+	LDAB #5
+	STAB $91
+	
+	ADDA #5
+	STAA $90
+	
+	ASLA
+	ASLA 
+	ASLA
+	ADDA $90
+	STAA $90
+
+	ASLB
+	ASLB
+	ASLB
+	
+	STAB $91	
+
+	SUBA $91
+	STAA $93
+
+	.END
